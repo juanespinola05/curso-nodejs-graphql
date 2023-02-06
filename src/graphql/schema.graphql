@@ -1,0 +1,12 @@
+type Query {
+  getProduct: Product
+}
+
+type Product {
+  id: ID!
+  name: String!
+  description: String!
+  price: Float!
+  image: String!
+  createdAt: String!
+}
